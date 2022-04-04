@@ -183,7 +183,7 @@ the text given in the address box to the browser's default web search engine.
 In many cases the URL has a special piece of text appended to it to tell the
 search engine that it came from a particular browser's URL bar.
 
-Convert non-ASCII Unicode characters in the hostname
+### Convert non-ASCII Unicode characters in the hostname
 ------------------------------------------------
 
 * The browser checks the hostname for characters that are not in ``a-z``,
@@ -192,7 +192,7 @@ Convert non-ASCII Unicode characters in the hostname
   the browser would apply `Punycode`_ encoding to the hostname portion of the
   URL.
 
-Check HSTS list
+### Check HSTS list
 ---------------
 * The browser checks its "preloaded HSTS (HTTP Strict Transport Security)"
   list. This is a list of websites that have requested to be contacted via
